@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Sudoku-Web-App/static/css/main.85f85b4f.css",
-    "main.js": "/Sudoku-Web-App/static/js/main.eb8ee622.js",
+    "main.css": "/Sudoku-Web-App/static/css/main.70a587ac.css",
+    "main.js": "/Sudoku-Web-App/static/js/main.c64e6b0f.js",
     "static/js/787.a0d9d60d.chunk.js": "/Sudoku-Web-App/static/js/787.a0d9d60d.chunk.js",
     "static/media/colorsplash.jpg": "/Sudoku-Web-App/static/media/colorsplash.f5334d24e5c35209e82a.jpg",
     "index.html": "/Sudoku-Web-App/index.html",
-    "main.85f85b4f.css.map": "/Sudoku-Web-App/static/css/main.85f85b4f.css.map",
-    "main.eb8ee622.js.map": "/Sudoku-Web-App/static/js/main.eb8ee622.js.map",
+    "main.70a587ac.css.map": "/Sudoku-Web-App/static/css/main.70a587ac.css.map",
+    "main.c64e6b0f.js.map": "/Sudoku-Web-App/static/js/main.c64e6b0f.js.map",
     "787.a0d9d60d.chunk.js.map": "/Sudoku-Web-App/static/js/787.a0d9d60d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85f85b4f.css",
-    "static/js/main.eb8ee622.js"
+    "static/css/main.70a587ac.css",
+    "static/js/main.c64e6b0f.js"
   ]
 }
