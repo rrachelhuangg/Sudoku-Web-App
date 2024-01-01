@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    /* background-color: blue; */
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.1);
+    position: fixed;
+    width:100%;
+    height:100%;
+}
+
+.content-header{
+    font-weight:bold;
+    font-size:120%;
+    margin-bottom: 1%;
+}
+
+.general-content{
+    text-align: left;
+    margin-top:1%;
+}
+
+.big-modal-container{
+    max-width:375px;
+    width:100%;
+    height:85%;
+    position:fixed;
+    top:46%; /*positioning*/
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:block;
+    background-color:#fcfcfc;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+.modal-container{
+    max-width:375px;
+    width:100%;
+    height:25%;
+    position:fixed;
+    top:40%; /*positioning*/
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:block;
+    background-color:#fcfcfc;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+.closeButton{
+    position:fixed;
+    top:4px;
+    right:3px;
+    padding:0 2%;
+    text-align: center;
+}
+
+.closeButton:hover{
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    margin-top:4%;
+    font-size:15px;
+    padding: 1rem 2rem; /*rem: font size relative to the size of the root element*/
+}
+
+.ok-button{ /*selecting the button within the button-container div element*/
+    width:30%;
+    margin-top:10.1%;
+    margin-left:65.1%;
+    padding:5px 0; 
+    border: none;
+    color:#000000;
+    background-color: rgb(193, 243, 255);
+    border: 1.5px solid rgb(168, 211, 222,0.6);
+}
+
+.ok-button:hover{
+    background-color: rgb(158, 236, 255);
+}
+
+.bigmodal-ok-button{
+    width:30%;
+    margin-left:67.5%;
+    padding:5px 0; 
+    border: none;
+    color:#000000;
+    background-color: rgb(193, 243, 255);
+    border: 1.5px solid rgb(168, 211, 222,0.6);
+}
+
+.bigmodal-ok-button:hover{
+    background-color: rgb(158, 236, 255);
+}
