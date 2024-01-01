@@ -1,0 +1,225 @@
+/* App.js uses this css file (what about App.css file?) */
+/* bootstrap link (for buttons) is in index.html in public folder of project */
+body{
+  background-color: #282c34;
+}
+#board{
+  padding-left: 16%;
+  display:inline-block;
+  margin-bottom: 7%;
+}
+
+#rectangle{
+  padding:120px 116px 120px 116px;
+  margin-left:0.9%;
+  width:100%;
+  background-color: white;
+  outline:5px solid black;
+  border-radius:2px;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  background-image: url("colorsplash.jpg");
+  background-size:200%;
+  color:white;
+}
+
+
+#buttons{
+  margin-left:0.5%;
+  padding-left:1%;
+  display:inline-block;
+}
+
+.sBtn{
+  margin-right: 1%;
+  width:100%;
+  display:block;
+  margin-top:1%;
+  margin-bottom:2%;
+}
+
+.rBtn{
+  margin-left: 0%;
+  margin-right: 1%;
+  width:100%;
+  display:block;
+  margin-top:1%;
+  margin-bottom:2%;
+}
+
+.cBtn{
+  width:100%;
+  display:block;
+  margin-top:1%;
+  margin-bottom:2%;
+}
+
+.eBtn{
+  width:100%;
+  padding: 7px 10px 7px 10px;
+}
+
+.pBtn{
+  width:100%;
+  padding: 7px 10px 7px 10px;
+}
+
+.insBtn{
+  width:100%;
+  padding:7px 10px 7px 10px;
+  margin:0;
+}
+
+#sbs-buttons{ /*display container for custom, set #'s and instructions buttons*/
+  display:flex;
+  margin-top:38.2%;
+  text-align:right;
+  margin-bottom:2%;
+}
+
+.square{ /*filled (standard) squares, i.e. blank squares in the original generated puzzles; values are fixed*/
+  background-color: #fafafa;
+  border: 1px solid #303030;
+  height: 54.7px;
+  width: 54.7px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.emptySquare{ /*filled square but with some modifications to differentiate from filled squares*/
+  background-color: #fafafa;
+  border: 1px solid #303030;
+  height: 54.2px;
+  width: 54.2px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.redSquare{
+  background-color: #fccbc7;
+  border: 1px solid #303030;
+  height: 54.2px;
+  width: 54.2px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.greenSquare{
+  background-color: #c2ffd2;
+  border: 1px solid #303030;
+  height: 54.7px;
+  width: 54.7px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#leftBorder{
+  border-left: 6px solid black;
+  height: 495px;
+  position: absolute;
+  left: 16.05%;
+}
+
+#topBorder{
+  border-top: 6px solid black;
+  width: 492.6px;
+  position: absolute;
+  top: 9%;
+}
+
+#bottomBorder{
+  border-top: 6px solid black;
+  width: 492.6px;
+  position: absolute;
+  top: 87%;
+}
+
+#rightBorder{
+  border-left: 6px solid black;
+  height: 495px;
+  position:absolute;
+  left:54.5%;
+}
+
+#verticalOne{
+  border-left: 6px solid black;
+  height: 495px;
+  position: absolute;
+  left: 28.5%;
+}
+
+#verticalTwo{
+  border-left: 6px solid black;
+  height: 495px;
+  position: absolute;
+  left: 41.5%;
+}
+
+#horizontalOne{
+  border-top: 6px solid black;
+  width: 492.6px;
+  position: absolute;
+  top: 35%;
+}
+
+#horizontalTwo{
+  border-top: 6px solid black;
+  width: 492.6px;
+  position: absolute;
+  top: 60.5%;
+}
+
+.hDivider{
+  margin-right:10px;
+}
+
+.navbar{
+  background-color: #282c34;
+}
+
+.navButtons{
+  color: white;
+}
+
+.navButtons:hover{
+  color: #61dafb;
+  font-size:101%;
+}
+
+.main{
+  background-color: #282c34;
+}
+
+/*css for removing the js default scrollwheel for input type numbers (the squares)*/
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*css to make the miniSquares in the miniBoard glow*/
+/* #miniBoard{
+  margin-top:20%;
+  display:block;
+}
+
+.miniSquare{ 
+  border-radius:2px;
+  background-color: #f1fbff;
+  border: 1px solid #023e56;
+  height: 60px;
+  width: 60px;
+  font-size: 20px;
+  text-align: center;
+  transition: all 0.175s ease-in-out;
+}
+
+.miniSquare:hover{
+  background-color: rgb(8, 206, 255);
+  box-shadow: 0px 0px 7px 9px rgba(0, 234, 255, 0.4);
+} */
+
+
+
